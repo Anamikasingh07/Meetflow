@@ -29,7 +29,7 @@ function Home() {
 
                 const response =
                     await fetch(
-                        "http://localhost:5000/api/meetings/create",
+                        "https://meetflow-server-nr0i.onrender.com/api/meetings/create",
                         {
                             method: "POST",
                         }
@@ -89,7 +89,7 @@ function Home() {
 
                 const response =
                     await fetch(
-                        `http://localhost:5000/api/meetings/${id}`
+                        `https://meetflow-server-nr0i.onrender.com/api/meetings/${id}`
                     );
 
                 const data =
