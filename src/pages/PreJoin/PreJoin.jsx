@@ -57,7 +57,7 @@ function PreJoin() {
 
                     const response =
                         await fetch(
-                            `http://localhost:5000/api/meetings/${roomId}`
+                            `https://meetflow-server-nr0i.onrender.com/api/meetings/${roomId}`
                         );
 
                     const data =
